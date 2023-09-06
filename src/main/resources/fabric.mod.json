@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "chatonlostfocus",
+  "version": "${version}",
+  "name": "ChatOnLostFocus",
+  "description": "This mod replaces the default functionality of Minecraft to open chat when the window is not focused.",
+  "authors": ["atikiNBTW"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/chat-on-lost-focus",
+    "sources": "https://github.com/atikiNBTW/ChatOnLostFocus"
+  },
+  "license": "ARR",
+  "icon": "assets/chatonlostfocus/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.atikinbtw.chatOnLostFocus.ChatOnLostFocus"
+    ]
+  },
+  "mixins": [
+    "chatonlostfocus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "~0.14.20",
+    "fabric": "*",
+    "minecraft": "~1.20.1"
+  }
+}
