@@ -1,0 +1,6 @@
+{
+  "keybind.chatonlostfocus.onOffBind": "Переключение функции",
+  "category.chatonlostfocus.chatonlostfocus": "Chat on Lost Focus",
+  "overlay.chatonlostfocus.on": "§aЧат при смене окна включён",
+  "overlay.chatonlostfocus.off": "§cЧат при смене окна выключен"
+}

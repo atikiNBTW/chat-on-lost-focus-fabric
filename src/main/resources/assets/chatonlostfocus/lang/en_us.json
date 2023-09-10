@@ -1,0 +1,6 @@
+{
+  "keybind.chatonlostfocus.onOffBind": "Toggle chat on lost focus functionality",
+  "category.chatonlostfocus.chatonlostfocus": "Chat on Lost Focus",
+  "overlay.chatonlostfocus.on": "§aChat on lost focus enabled",
+  "overlay.chatonlostfocus.off": "§cChat on lost focus disabled"
+}

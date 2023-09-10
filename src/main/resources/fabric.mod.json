@@ -9,7 +9,7 @@
     "homepage": "https://modrinth.com/mod/chat-on-lost-focus",
     "sources": "https://github.com/atikiNBTW/ChatOnLostFocus"
   },
-  "license": "ARR",
+  "license": "The MIT License",
   "icon": "assets/chatonlostfocus/icon.png",
   "environment": "client",
   "entrypoints": {

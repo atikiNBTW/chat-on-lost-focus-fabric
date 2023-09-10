@@ -3,10 +3,11 @@ package com.atikinbtw.chatOnLostFocus.mixins;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.ChatScreen;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+
+import com.atikinbtw.chatOnLostFocus.ChatOnLostFocus;
 
 @Mixin(MinecraftClient.class)
 public abstract class modifyFocusLossBehavior {
@@ -20,7 +21,7 @@ public abstract class modifyFocusLossBehavior {
             return;
         }
 
-        if (!mc.options.pauseOnLostFocus && mc.currentScreen == null && !mc.isWindowFocused()) {
+        if (!mc.options.pauseOnLostFocus && mc.currentScreen == null && mc.isWindowFocused() && ChatOnLostFocus.isChatOnLostFocusEnabled()) {
             mc.setScreen(new ChatScreen(""));
         }
     }
