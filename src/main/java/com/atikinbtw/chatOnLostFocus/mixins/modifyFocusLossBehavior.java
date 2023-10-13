@@ -20,7 +20,8 @@ public abstract class modifyFocusLossBehavior {
             return;
         }
 
-        if (!mc.options.pauseOnLostFocus && mc.currentScreen == null && mc.isWindowFocused() && ClothConfigClass.config.isChatOnLostFocusEnabled) {
+        if (mc.currentScreen == null && mc.isWindowFocused() && ClothConfigClass.config.isChatOnLostFocusEnabled) {
+            mc.options.pauseOnLostFocus = false;
             mc.setScreen(new ChatScreen(ClothConfigClass.config.textInChat));
         }
     }

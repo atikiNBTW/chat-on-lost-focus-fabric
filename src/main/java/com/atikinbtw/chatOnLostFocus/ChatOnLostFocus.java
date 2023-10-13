@@ -17,14 +17,15 @@ import java.util.logging.Logger;
 public class ChatOnLostFocus implements ClientModInitializer {
     public static final MinecraftClient mc = MinecraftClient.getInstance();
 
+    public static final Logger logger = Logger.getLogger("ChatOnLostFocus");
+
     @Override
     public void onInitializeClient() {
         ClothConfigClass.init();
-        Logger logger = Logger.getLogger("ChatOnLostFocus");
-        logger.log(Level.INFO, "ChatOnLostFocus initialized!");
+        logger.log(Level.INFO, "Chat On Lost Focus successfully initialized!");
 
         KeyBinding toggleChatOnLostFocusBind = KeyBindingHelper.registerKeyBinding(new KeyBinding(
-                "keybind.chatonlostfocus.onOffBind", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_F24, "category.chatonlostfocus.chatonlostfocus"));
+                "keybind.chatonlostfocus.onOffBind", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_G, "category.chatonlostfocus.chatonlostfocus"));
         KeyBinding openConfigScreenBind = KeyBindingHelper.registerKeyBinding(new KeyBinding(
                 "keybind.chatonlostfocus.openConfigScreenBind", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_H, "category.chatonlostfocus.chatonlostfocus"));
 
