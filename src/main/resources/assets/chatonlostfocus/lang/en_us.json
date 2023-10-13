@@ -1,0 +1,11 @@
+{
+  "keybind.chatonlostfocus.onOffBind": "Toggle chat on lost focus functionality",
+  "category.chatonlostfocus.chatonlostfocus": "Chat on Lost Focus",
+  "overlay.chatonlostfocus.on": "§aChat on lost focus has been enabled",
+  "overlay.chatonlostfocus.off": "§cChat on lost focus has been disabled",
+  "keybind.chatonlostfocus.openConfigScreenBind": "Open options screen",
+  "text.autoconfig.chatonlostfocus.title": "Chat on Lost Focus settings",
+  "text.autoconfig.chatonlostfocus.option.textInChat": "Text",
+  "text.autoconfig.chatonlostfocus.option.textInChat.@Tooltip": "What will be written in the chat when you switch the window.",
+  "text.autoconfig.chatonlostfocus.option.isChatOnLostFocusEnabled": "Is mod enabled?"
+}

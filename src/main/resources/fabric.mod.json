@@ -9,12 +9,15 @@
     "homepage": "https://modrinth.com/mod/chat-on-lost-focus",
     "sources": "https://github.com/atikiNBTW/ChatOnLostFocus"
   },
-  "license": "ARR",
+  "license": "The MIT License",
   "icon": "assets/chatonlostfocus/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
       "com.atikinbtw.chatOnLostFocus.ChatOnLostFocus"
+    ],
+    "modmenu": [
+      "com.atikinbtw.chatOnLostFocus.config.ModmenuConfig"
     ]
   },
   "mixins": [
@@ -23,6 +26,6 @@
   "depends": {
     "fabricloader": "~0.14.20",
     "fabric": "*",
-    "minecraft": "~1.20.1"
+    "minecraft": "~1.20.2"
   }
 }
