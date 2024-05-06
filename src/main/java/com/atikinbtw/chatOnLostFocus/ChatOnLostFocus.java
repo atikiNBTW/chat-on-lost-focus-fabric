@@ -10,7 +10,6 @@ import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
 import net.minecraft.text.Text;
 import org.lwjgl.glfw.GLFW;
-import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ChatOnLostFocus implements ClientModInitializer {
@@ -39,9 +38,6 @@ public class ChatOnLostFocus implements ClientModInitializer {
     private void sendActionBarMessage() {
         Text message = Text.translatable(Config.config.isChatOnLostFocusEnabled ? "overlay.chatonlostfocus.on" : "overlay.chatonlostfocus.off");
 
-        MinecraftClient.getInstance().inGameHud.setOverlayMessage(
-                message,
-                true
-        );
+        MinecraftClient.getInstance().inGameHud.setOverlayMessage(message, true);
     }
 }

@@ -1,11 +1,11 @@
 {
-  "keybind.chatonlostfocus.onOffBind": "Toggle chat on lost focus functionality",
+  "keybind.chatonlostfocus.onOffBind": "Turn mod on/off",
   "category.chatonlostfocus.chatonlostfocus": "Chat on Lost Focus",
-  "overlay.chatonlostfocus.on": "§aChat on lost focus has been enabled",
-  "overlay.chatonlostfocus.off": "§cChat on lost focus has been disabled",
+  "overlay.chatonlostfocus.on": "§a[Chat On Lost Focus] Mod has been enabled",
+  "overlay.chatonlostfocus.off": "§c[Chat On Lost Focus] Mod has been disabled",
   "keybind.chatonlostfocus.openConfigScreenBind": "Open options screen",
   "text.autoconfig.chatonlostfocus.title": "Chat on Lost Focus settings",
   "text.autoconfig.chatonlostfocus.option.textInChat": "Text",
-  "text.autoconfig.chatonlostfocus.option.textInChat.@Tooltip": "What will be written in the chat when you switch the window.",
+  "text.autoconfig.chatonlostfocus.option.textInChat.@Tooltip": "Text in the chat after returning to the Minecraft",
   "text.autoconfig.chatonlostfocus.option.isChatOnLostFocusEnabled": "Is mod enabled?"
 }

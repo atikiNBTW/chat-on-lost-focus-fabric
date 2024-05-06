@@ -1,11 +1,11 @@
 {
-  "keybind.chatonlostfocus.onOffBind": "Переключение функции мода",
+  "keybind.chatonlostfocus.onOffBind": "Включить/выключить мод",
   "category.chatonlostfocus.chatonlostfocus": "Chat on Lost Focus",
-  "overlay.chatonlostfocus.on": "§aЧат при смене окна включён",
-  "overlay.chatonlostfocus.off": "§cЧат при смене окна выключен",
+  "overlay.chatonlostfocus.on": "§a[Chat On Lost Focus] Мод включён",
+  "overlay.chatonlostfocus.off": "§c[Chat On Lost Focus] Мод выключен",
   "keybind.chatonlostfocus.openConfigScreenBind": "Открытие настроек",
-  "text.autoconfig.chatonlostfocus.title": "Настройки Chat on Lost Focus",
+  "text.autoconfig.chatonlostfocus.title": "Настройки Chat On Lost Focus",
   "text.autoconfig.chatonlostfocus.option.textInChat": "Текст",
-  "text.autoconfig.chatonlostfocus.option.textInChat.@Tooltip": "То, что будет написано в чате при смене окна.",
-  "text.autoconfig.chatonlostfocus.option.isChatOnLostFocusEnabled": "Включён ли мод?"
+  "text.autoconfig.chatonlostfocus.option.textInChat.@Tooltip": "Текст в чате после смены окна",
+  "text.autoconfig.chatonlostfocus.option.isChatOnLostFocusEnabled": "Мод включён?"
 }
