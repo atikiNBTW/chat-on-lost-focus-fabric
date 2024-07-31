@@ -7,5 +7,5 @@
   "text.autoconfig.chatonlostfocus.title": "Chat on Lost Focus settings",
   "text.autoconfig.chatonlostfocus.option.textInChat": "Text",
   "text.autoconfig.chatonlostfocus.option.textInChat.@Tooltip": "Text in the chat after returning to the Minecraft",
-  "text.autoconfig.chatonlostfocus.option.isChatOnLostFocusEnabled": "Is mod enabled?"
+  "text.autoconfig.chatonlostfocus.option.enabled": "Is mod enabled?"
 }

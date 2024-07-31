@@ -14,18 +14,18 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.atikinbtw.chatOnLostFocus.ChatOnLostFocus"
+      "com.atikinbtw.chatonlostfocus.ChatOnLostFocus"
     ],
     "modmenu": [
-      "com.atikinbtw.chatOnLostFocus.config.ModMenuConfig"
+      "com.atikinbtw.chatonlostfocus.config.ModMenuConfig"
     ]
   },
   "mixins": [
     "chatonlostfocus.mixins.json"
   ],
   "depends": {
-    "fabricloader": "~0.15",
+    "fabricloader": ">=0.14",
     "fabric": "*",
-    "minecraft": ">=1.20"
+    "minecraft": ">=1.14"
   }
 }

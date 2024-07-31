@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.atikinbtw.chatOnLostFocus.mixins",
+  "package": "com.atikinbtw.chatonlostfocus.mixins",
   "compatibilityLevel": "JAVA_21",
   "client": [
     "MinecraftClientMixin"

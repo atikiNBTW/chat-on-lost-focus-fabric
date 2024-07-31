@@ -1,4 +1,4 @@
-package com.atikinbtw.chatOnLostFocus.config;
+package com.atikinbtw.chatonlostfocus.config;
 
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.ConfigData;
@@ -7,17 +7,17 @@ import me.shedaniel.autoconfig.annotation.ConfigEntry;
 import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer;
 
 @Config(name = "chatonlostfocus")
-public class ClothConfigClass implements ConfigData {
+public class ConfigScreen implements ConfigData {
     @ConfigEntry.Gui.Excluded
-    public static ClothConfigClass config;
+    public static ConfigScreen config;
 
     public static void init() {
-        AutoConfig.register(ClothConfigClass.class, JanksonConfigSerializer::new);
-        config = AutoConfig.getConfigHolder(ClothConfigClass.class).getConfig();
+        AutoConfig.register(ConfigScreen.class, JanksonConfigSerializer::new);
+        config = AutoConfig.getConfigHolder(ConfigScreen.class).getConfig();
     }
 
     @ConfigEntry.Gui.Tooltip
-    public String textInChat = "";
+    public String textInChat = "paused";
 
-    public boolean isChatOnLostFocusEnabled = true;
+    public boolean enabled = true;
 }

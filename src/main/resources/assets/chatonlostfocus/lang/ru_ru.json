@@ -7,5 +7,5 @@
   "text.autoconfig.chatonlostfocus.title": "Настройки Chat On Lost Focus",
   "text.autoconfig.chatonlostfocus.option.textInChat": "Текст",
   "text.autoconfig.chatonlostfocus.option.textInChat.@Tooltip": "Текст в чате после смены окна",
-  "text.autoconfig.chatonlostfocus.option.isChatOnLostFocusEnabled": "Мод включён?"
+  "text.autoconfig.chatonlostfocus.option.enabled": "Мод включён?"
 }

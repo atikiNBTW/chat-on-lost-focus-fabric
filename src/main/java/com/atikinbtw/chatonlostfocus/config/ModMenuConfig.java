@@ -1,4 +1,4 @@
-package com.atikinbtw.chatOnLostFocus.config;
+package com.atikinbtw.chatonlostfocus.config;
 
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
@@ -7,10 +7,10 @@ import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 
 @Environment(EnvType.CLIENT)
-public class ModmenuConfig implements ModMenuApi {
+public class ModMenuConfig implements ModMenuApi {
 
     @Override
     public ConfigScreenFactory<?> getModConfigScreenFactory() {
-        return parent -> AutoConfig.getConfigScreen(ClothConfigClass.class, parent).get();
+        return parent -> AutoConfig.getConfigScreen(ConfigScreen.class, parent).get();
     }
 }
