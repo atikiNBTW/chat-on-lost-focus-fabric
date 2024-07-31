@@ -1,10 +1,10 @@
 {
   "keybind.chatonlostfocus.onOffBind": "開啟／關閉模組",
-  "category.chatonlostfocus.chatonlostfocus": "Chat on Lost Focus 失去焦點時發送訊息",
-  "overlay.chatonlostfocus.on": "§a[失焦時發送訊息] 模組已啟用",
-  "overlay.chatonlostfocus.off": "§c[失焦時發送訊息] 模組已停用",
+  "category.chatonlostfocus.chatonlostfocus": "失去焦點時發送訊息 （Chat on Lost Focus）",
+  "overlay.chatonlostfocus.on": "§a[Chat on Lost Focus] 模組已啟用",
+  "overlay.chatonlostfocus.off": "§c[Chat on Lost Focus] 模組已停用",
   "keybind.chatonlostfocus.openConfigScreenBind": "開啟選項畫面",
-  "text.autoconfig.chatonlostfocus.title": "失焦時發送訊息 設定",
+  "text.autoconfig.chatonlostfocus.title": "失焦時發送訊息 （Chat on Lost Focus） 設定",
   "text.autoconfig.chatonlostfocus.option.textInChat": "文字",
   "text.autoconfig.chatonlostfocus.option.textInChat.@Tooltip": "返回 Minecraft 後在聊天中顯示的文字",
   "text.autoconfig.chatonlostfocus.option.enabled": "模組是否啟用？"
