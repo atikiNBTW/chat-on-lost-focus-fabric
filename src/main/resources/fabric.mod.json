@@ -4,10 +4,12 @@
   "version": "${version}",
   "name": "ChatOnLostFocus",
   "description": "This mod replaces the default functionality of Minecraft to open chat instead of menu when the window is not focused.",
-  "authors": ["atikiNBTW"],
+  "authors": [
+    "atikiNBTW"
+  ],
   "contact": {
     "homepage": "https://modrinth.com/mod/chat-on-lost-focus",
-    "sources": "https://github.com/atikiNBTW/ChatOnLostFocus"
+    "sources": "https://github.com/atikiNBTW/chat-on-lost-focus-fabric"
   },
   "license": "The MIT License",
   "icon": "assets/chatonlostfocus/icon.png",
@@ -26,6 +28,6 @@
   "depends": {
     "fabricloader": ">=0.15",
     "fabric": "*",
-    "minecraft": ">=1.21"
+    "minecraft": ">=1.19"
   }
 }
