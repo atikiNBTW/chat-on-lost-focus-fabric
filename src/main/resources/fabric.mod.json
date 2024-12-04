@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "chatonlostfocus",
   "version": "${version}",
-  "name": "ChatOnLostFocus",
+  "name": "Chat On Lost Focus",
   "description": "This mod replaces the default functionality of Minecraft to open chat instead of menu when the window is not focused.",
   "authors": [
     "atikiNBTW"
